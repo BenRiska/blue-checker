@@ -1,0 +1,36 @@
+.heroVideo {
+  margin: 5rem 0;
+}
+
+.heroVideo__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.blurredImg {
+  position: absolute;
+  width: 90%;
+}
+
+.shownImg {
+  width: 90%;
+}
+
+.heroVideo__play-button {
+  background: #0083ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

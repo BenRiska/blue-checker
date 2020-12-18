@@ -1,0 +1,109 @@
+.homeDesktopAnimation {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.hda__chat-bubble {
+  margin: 0 auto;
+  width: 620px;
+  background: rgb(248, 250, 255);
+  border-radius: 30px;
+  position: relative;
+  height: 1000px;
+}
+
+.hda__row {
+  height: 125px;
+  position: relative;
+}
+
+.hda__row img {
+  position: absolute;
+}
+
+.hda__row-1 > img {
+  max-width: 560px;
+  top: -40px;
+  right: -40px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-2 > img:nth-child(1) {
+  left: -40px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-2 > img:nth-child(2) {
+  right: -50px;
+  top: 15px;
+  box-shadow: 0 44px 57px 0 rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-3 > img:nth-child(1) {
+  left: -30px;
+}
+
+.hda__row-3 > img:nth-child(2) {
+  left: 100px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-3 > img:nth-child(3) {
+  right: -25px;
+}
+
+.hda__row-4 > img:nth-child(1) {
+  left: -30px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-4 > img:nth-child(2) {
+  left: 230px;
+  top: 40px;
+}
+
+.hda__row-4 > img:nth-child(3) {
+  right: -40px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-5 > img:nth-child(1) {
+  left: -120px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-5 > img:nth-child(2) {
+  left: -70px;
+  top: 180px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-5 > img:nth-child(3) {
+  right: -60px;
+  top: 40px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-6 > img:nth-child(1) {
+  left: -60px;
+  top: 150px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-6 > img:nth-child(2) {
+  left: 300px;
+  top: 200px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__row-6 > img:nth-child(3) {
+  right: -60px;
+  top: 200px;
+  box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
+}
+
+.hda__desktop-image {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10rem;
+}

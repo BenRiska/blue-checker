@@ -1,0 +1,52 @@
+.bookDemo {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+}
+
+.bookDemo-left {
+  flex: 0.275;
+  padding: 2rem;
+}
+
+.bookDemo-left > h2 {
+  font-size: 36px;
+}
+
+.bookDemo-left > button {
+  margin-top: 3rem;
+  color: #0083ff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 131, 255, 0.08);
+  background: transparent;
+  font-weight: bold;
+}
+
+.bookDemo-center {
+  flex: 0.45;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bookDemo__icon {
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 999px;
+}
+
+.bookDemo-right {
+  flex: 0.275;
+  padding: 2rem;
+}
+
+.bookDemo-right > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bookDemo-right > p {
+  margin-top: 2rem;
+  font-weight: 500;
+}

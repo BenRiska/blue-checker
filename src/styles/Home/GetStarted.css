@@ -1,0 +1,64 @@
+.getStarted {
+  background: url(../../Assets/Images/get-started.png);
+  background-position: 50% 0%;
+  background-size: 1280px;
+  background-repeat: no-repeat;
+}
+
+.getStarted__content {
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 1000px;
+}
+
+.getStarted__content > h3 {
+  font-size: 32px;
+  color: #0083ff;
+  padding: 4rem 0;
+  position: relative;
+  width: fit-content;
+}
+
+.getStarted__content > h3 > svg {
+  position: absolute;
+  top: 3.5rem;
+  right: -2rem;
+}
+
+.getStarted__content > h1 {
+  font-size: 50px;
+  max-width: 60%;
+}
+
+.getStarted__content > p {
+  margin-top: 2rem;
+  max-width: 50%;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.getStarted__buttons {
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.getStarted__buttons > button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.getStarted__blue-btn {
+  margin-right: 1rem;
+  color: white;
+  background: #0083ff;
+  border: none;
+}
+
+.getStarted__white-btn {
+  margin-right: 1rem;
+  color: #0083ff;
+  background: transparent;
+  border: 1px solid rgba(0, 131, 255, 0.08);
+}
