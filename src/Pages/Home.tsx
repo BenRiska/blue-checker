@@ -1,9 +1,11 @@
 import React from 'react'
+import Hero from '../Components/Home/Hero'
 
 function Home() {
     return (
         <div>
                 {/* Hero */}
+                <Hero/>
                 {/* Video */}
                 {/* BookDemo */}
                 {/* Video */}
@@ -19,6 +21,7 @@ function Home() {
                 {/* ConversionDemo */}
                 {/* Testimonials */}
                 {/* Banner */}
+                
         </div>
     )
 }
