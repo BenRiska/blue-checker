@@ -1,10 +1,17 @@
 import React from 'react'
+import Banner from '../Components/Home/Banner'
 import BookDemo from '../Components/Home/BookDemo'
+import Conversions from '../Components/Home/Conversions'
 import GetStarted from '../Components/Home/GetStarted'
 import Hero from '../Components/Home/Hero'
 import HeroVideo from '../Components/Home/HeroVideo'
 import HomeDesktopAnimation from '../Components/Home/HomeDesktopAnimation'
+import HomeIllustration from '../Components/Home/HomeIllustration'
+import HomeMobileAnimation from '../Components/Home/HomeMobileAnimation'
+import HomeStaggerAnimation from '../Components/Home/HomeStaggerAnimation'
 import RevenueInfo from '../Components/Home/RevenueInfo'
+import Solutions from '../Components/Home/Solutions'
+import Testimonials from '../Components/Home/Testimonials'
 
 function Home() {
     return (
@@ -21,16 +28,22 @@ function Home() {
                 <HomeDesktopAnimation/>
                 {/* RevenueSteps */}
                 <RevenueInfo/>
-                {/* Video */}
-                <div className="home__illustartion"></div>
+                {/* HomeIllustration */}
+                <HomeIllustration/>
                 {/* Banner */}
+                <Banner/>
                 {/* HomeMobileAnimation */}
+                <HomeMobileAnimation/>
                 {/* Solutions */}
+                <Solutions/>
                 {/* HomeStaggerAnimation */}
+                <HomeStaggerAnimation/>
                 {/* ConversionDemo */}
+                <Conversions/>
                 {/* Testimonials */}
+                <Testimonials/>
                 {/* Banner */}
-                
+                <Banner/>
         </div>
     )
 }

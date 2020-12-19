@@ -1,0 +1,53 @@
+.banner {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  background: #081131;
+  margin-top: 10rem;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.banner__content {
+  flex: 0.5;
+  z-index: 1;
+}
+
+.banner__img-container {
+  height: 700px;
+  width: 100vw;
+  position: absolute;
+  background: url("https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6cdb3a7653dbb2997c2617_261%2026.png");
+  background-position: 50% 50%;
+  right: -100px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.banner__content > h1 {
+  color: white;
+}
+
+.banner__content > h1 > span {
+  display: block;
+  font-size: 40px;
+}
+
+.banner__content > p {
+  margin-top: 1rem;
+  color: #d4dcf1;
+  font-weight: 500;
+}
+
+.banner__content > button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  color: white;
+  background: #0083ff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
