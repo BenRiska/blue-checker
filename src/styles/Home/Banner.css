@@ -51,3 +51,26 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 1250px) {
+  .banner__img-container {
+    background-size: 100vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner {
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .banner {
+    height: 400px;
+  }
+
+  .banner__content {
+    flex: 1;
+  }
+}

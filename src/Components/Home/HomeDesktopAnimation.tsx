@@ -34,7 +34,7 @@ function HomeDesktopAnimation() {
                 </div>
             </div>
             <div className="hda__desktop-image">
-                <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f688391ea8deb41dd51a0f6_ss.jpg" loading="eager" width="1060" alt=""/>
+                <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f688391ea8deb41dd51a0f6_ss.jpg" loading="eager" alt=""/>
             </div>
         </div>
     )

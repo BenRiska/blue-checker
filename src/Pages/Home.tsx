@@ -16,34 +16,35 @@ import Testimonials from '../Components/Home/Testimonials'
 function Home() {
     return (
         <div>
-                {/* Hero */}
+                
                 <Hero/>
-                {/* Video */}
+                
                 <HeroVideo/>
-                {/* BookDemo */}
+                
                 <BookDemo/>
-                {/* GetStarted */}
+                
                 <GetStarted/>
-                {/*HomeDesktopAnimation*/}
+                
                 <HomeDesktopAnimation/>
-                {/* RevenueSteps */}
+                
                 <RevenueInfo/>
-                {/* HomeIllustration */}
+                
                 <HomeIllustration/>
-                {/* Banner */}
+                
                 <Banner/>
-                {/* HomeMobileAnimation */}
+                
                 <HomeMobileAnimation/>
-                {/* Solutions */}
+                
                 <Solutions/>
-                {/* HomeStaggerAnimation */}
+                
                 <HomeStaggerAnimation/>
-                {/* ConversionDemo */}
+                
                 <Conversions/>
-                {/* Testimonials */}
+                
                 <Testimonials/>
-                {/* Banner */}
-                <Banner/>
+                
+                <Banner/> 
+                
         </div>
     )
 }

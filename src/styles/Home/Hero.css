@@ -12,7 +12,7 @@
 
 .hero__container > h1 {
   margin-top: 5rem;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,7 @@
   font-size: 14px;
   font-weight: 500;
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .hero__margin-top {
@@ -76,3 +77,29 @@
   width: 50px;
   border-radius: 999px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .hero__container > h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero__container > h1 {
+    font-size: 40px;
+  }
+
+  .hero__margin-bottom {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero__container > h1 {
+    font-size: 30px;
+  }
+
+  .button-container {
+    width: 280px;
+  }
+} ;

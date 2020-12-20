@@ -1,11 +1,14 @@
 .homeDesktopAnimation {
   margin-top: 4rem;
   margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hda__chat-bubble {
-  margin: 0 auto;
-  width: 620px;
+  width: 80vw;
+  max-width: 620px;
   background: rgb(248, 250, 255);
   border-radius: 30px;
   position: relative;
@@ -19,10 +22,12 @@
 
 .hda__row img {
   position: absolute;
+  overflow: hidden;
+  max-width: 90vw;
 }
 
 .hda__row-1 > img {
-  max-width: 560px;
+  width: 500px;
   top: -40px;
   right: -40px;
   box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
@@ -102,8 +107,20 @@
   box-shadow: 0 64px 76px -20px rgba(123, 139, 178, 0.12);
 }
 
-.hda__desktop-image {
-  width: 1000px;
+.hda__desktop-image > img {
+  max-width: 1000px;
+  width: 90vw;
   margin: 0 auto;
   margin-top: 10rem;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 750px) {
+  .hda__chat-bubble {
+    display: none;
+  }
+
+  .hda__desktop-image > img {
+    margin-top: 0;
+  }
 }

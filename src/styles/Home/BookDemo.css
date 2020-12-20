@@ -51,3 +51,44 @@
   margin-top: 2rem;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 1200px) {
+  .bookDemo-left {
+    flex: 0.275;
+    padding: 1rem;
+  }
+  .bookDemo__icon {
+    margin: 0.5rem;
+    padding: 0 1rem;
+    border-radius: 999px;
+  }
+
+  .bookDemo-right {
+    flex: 0.275;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bookDemo {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin-top: 5rem;
+    padding: 1rem;
+  }
+
+  .bookDemo-right,
+  .bookDemo-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bookDemo-right,
+  .bookDemo-center {
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 25px;
+  }
+}

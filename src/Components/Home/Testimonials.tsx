@@ -20,7 +20,7 @@ function Testimonials() {
 
             <div className="testimonials__grid">
                 <div className="testimonials__row">
-                    <div className="testimonial">
+                    <div className="testimonial testimonial__hide">
                         <div className="testimonial__user">
                             <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fa97a755538f8304db0716b_Group%2041864-1.png" loading="lazy" alt="" />
                             <div className="testimonial__name">
@@ -60,7 +60,7 @@ function Testimonials() {
                         <span>BlueReceipt</span>  is hands down my favorite platform 🤤
                         </p>
                     </div>
-                    <div className="testimonial">
+                    <div className="testimonial testimonial__hide">
                         <div className="testimonial__user">
                         <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fa97acc7af72b2e44ca276f_Group%2041880.png" loading="lazy" alt="" />
                             <div className="testimonial__name">
@@ -75,7 +75,7 @@ function Testimonials() {
                     </div>
                 </div>
                 <div className="testimonials__row">
-                    <div className="testimonial">
+                    <div className="testimonial testimonial__hide">
                         <div className="testimonial__user">
                         <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fa979b561409521ac1627e0_image%20184.png" loading="lazy" alt="" />
                             <div className="testimonial__name">
@@ -114,7 +114,7 @@ function Testimonials() {
                         Text Message Marketing is here to stay. BlueReceipt is the future 💎
                         </p>
                     </div>
-                    <div className="testimonial">
+                    <div className="testimonial testimonial__hide">
                         <div className="testimonial__user">
                             <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fa97a761746005975bc6ba1_Group%2041880.png" loading="lazy" alt="" />
                             <div className="testimonial__name">
