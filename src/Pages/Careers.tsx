@@ -9,10 +9,11 @@ import "../styles/Careers/OurMission.css"
 function Careers() {
     return (
         <div>
-                {/* CareersHero */}
+                
                 <CareersHero/>
-                {/* Map */}
+                
                 <Map/>
+                
                 <div className="ourMission">
                     <h2>
                         <span>Our</span>
@@ -20,11 +21,11 @@ function Careers() {
                     </h2>
                     <p>Building genuine connections by enabling personalized conversational commerce. Curating powerful UX/UI human interface digital software for a 2020 Modern World. We believe the future is built by enabling humans to exchange energy with humans.</p>
                 </div>
-                {/* Benefits */}
+                
                 <Benefits/>
-                {/* Vision */}
+                
                 <Vision/>
-                {/* Team */}
+                
                 <Team/>
         </div>
     )

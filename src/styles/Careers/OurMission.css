@@ -24,3 +24,15 @@
   font-weight: 500;
   line-height: 30px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .ourMission {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .ourMission > h2 {
+    margin-bottom: 1rem;
+  }
+}
