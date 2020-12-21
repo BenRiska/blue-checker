@@ -13,6 +13,7 @@
 
 .bookDemo-left > h2 {
   font-size: 36px;
+  color: #081f4d;
 }
 
 .bookDemo-left > button {
@@ -45,11 +46,13 @@
 .bookDemo-right > h2 {
   font-size: 18px;
   font-weight: 600;
+  color: #081f4d;
 }
 
 .bookDemo-right > p {
   margin-top: 2rem;
   font-weight: 500;
+  color: #081f4d;
 }
 
 @media only screen and (max-width: 1200px) {

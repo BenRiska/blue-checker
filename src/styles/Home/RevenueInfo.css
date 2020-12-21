@@ -13,16 +13,18 @@
 .revenueInfo__header > h2 {
   font-size: 40px;
   flex: 0.5;
+  color: #081f4d;
 }
 
 .revenueInfo__header > h2 > span {
   display: block;
   position: relative;
   margin-bottom: 0.5rem;
+  color: #081f4d;
 }
 
 .revenueInfo__header > h2 > span:nth-child(2) {
-  color: #0083ff;
+  color: #0083ff !important;
 }
 
 .revenueInfo__header > h2 > span > svg {

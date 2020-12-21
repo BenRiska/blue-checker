@@ -1,0 +1,27 @@
+.vision {
+  max-width: 800px;
+  margin: 10rem auto;
+  background: #f8faff;
+  padding: 3rem;
+  border-radius: 50px;
+}
+
+.vision > h1 {
+  margin-bottom: 3rem;
+}
+
+.vision > h1 > span {
+  display: block;
+  font-size: 40px;
+}
+
+.vision > h1 > span:nth-child(2) {
+  color: #0083ff;
+}
+
+.vision > p {
+  line-height: 30px;
+  font-weight: 500;
+  color: #52648e;
+  font-size: 18px;
+}

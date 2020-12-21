@@ -1,16 +1,12 @@
-.getStarted {
-  background: url(../../Assets/Images/get-started.png);
-  background-position: top right;
-  background-size: 1280px;
-  background-repeat: no-repeat;
-  margin-top: 10rem;
-}
-
 .getStarted__content {
   margin: 0 auto;
   margin-top: 5rem;
   max-width: 1000px;
   padding-left: 3rem;
+  background: url(../../Assets/Images/get-started.png);
+  background-position: top right;
+  background-size: 1280px;
+  background-repeat: no-repeat;
 }
 
 .getStarted__content > h3 {
@@ -30,6 +26,7 @@
 .getStarted__content > h1 {
   font-size: 50px;
   max-width: 60%;
+  color: #081f4d;
 }
 
 .getStarted__content > p {
@@ -37,6 +34,7 @@
   max-width: 50%;
   font-weight: 500;
   font-size: 14px;
+  color: #081f4d;
 }
 
 .getStarted__buttons {
@@ -69,6 +67,10 @@
   .getStarted {
     background: initial;
     margin-top: 5rem;
+    background: url(../../Assets/Images/get-started.png);
+    background-position: top right;
+    background-size: 1280px;
+    background-repeat: no-repeat;
   }
 
   .getStarted__content {
@@ -77,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: initial;
   }
 
   .getStarted__content > h1,

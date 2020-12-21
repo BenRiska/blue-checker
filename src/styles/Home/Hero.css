@@ -21,10 +21,11 @@
 
 .hero__container > h1 > span {
   display: block;
+  color: #081f4d;
 }
 
 .hero__container > h1 > span:nth-child(1) {
-  color: #0083ff;
+  color: #0083ff !important;
 }
 
 .hero__svg {
@@ -42,6 +43,7 @@
   font-weight: 500;
   margin-top: 0.5rem;
   text-align: center;
+  color: #081f4d;
 }
 
 .hero__margin-top {
