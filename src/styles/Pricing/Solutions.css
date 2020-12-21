@@ -1,0 +1,49 @@
+.pricingSolutions {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingSolutions__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingSolutions__header > h2 {
+  font-size: 40px;
+  margin: 4rem 0 2rem 0;
+}
+
+.pricingSolutions__header > p {
+  max-width: 500px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #52648e;
+  text-align: center;
+}
+
+.pricingSolutions__header > button {
+  margin-top: 2rem;
+  border: none;
+  width: 300px;
+  height: 70px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #0083ff;
+  color: white;
+  cursor: pointer;
+}
+
+.pricingSolutions__header > button > span {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.pricingSolutions__header > button > span:nth-child(1) {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0 1rem;
+}

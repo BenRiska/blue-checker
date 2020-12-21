@@ -8,7 +8,7 @@ function Nav() {
             <div className="nav__left"></div>
             <div className="nav__center">
                 <div className="nav__center-left">
-                    <Link className="nav__link" to="/careers">Career</Link>
+                    <Link className="nav__link" to="/">Home</Link>
                     <Link className="nav__link" to="/pricing">Pricing</Link>
                 </div>
                 <div className="nav__center-middle">
