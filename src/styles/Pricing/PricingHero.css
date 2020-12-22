@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .pricingHero > h1 {
@@ -49,6 +50,7 @@
   flex-direction: column;
   justify-content: space-around;
   transform: translateY(100px);
+  box-shadow: 0 154px 146px -20px rgba(36, 60, 122, 0.03);
 }
 
 .pricingHero__card:nth-child(1) {
@@ -137,4 +139,69 @@
 .pricingHero__card-footer > span {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 1000px) {
+  .pricingHero {
+    padding-bottom: 20rem;
+    margin-bottom: 70rem;
+  }
+  .pricingHero__cards {
+    flex-direction: column;
+  }
+
+  .pricingHero__card:nth-child(1),
+  .pricingHero__card:nth-child(2) {
+    flex: initial;
+    text-align: center;
+  }
+
+  .pricingHero__card:nth-child(1) {
+    width: 450px;
+  }
+
+  .pricingHero__card:nth-child(2) {
+    margin-top: 5rem;
+  }
+
+  .pricingHero__cards {
+    position: absolute;
+    bottom: -900px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .pricingHero__card:nth-child(1) {
+    width: 350px;
+  }
+
+  .pricingHero__card:nth-child(2) {
+    width: 450px;
+  }
+
+  .pricingHero > h1 > span {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pricingHero__card:nth-child(1) {
+    width: 275px;
+  }
+
+  .pricingHero__card:nth-child(2) {
+    width: 350px;
+  }
+
+  .pricingHero > h1 > span {
+    font-size: 40px;
+  }
+
+  .pricingHero > h1 > span > svg {
+    right: -20px;
+  }
+
+  .pricingHero > p {
+    max-width: 90vw;
+  }
 }

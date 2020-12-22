@@ -3,19 +3,21 @@ import Solutions from '../Components/Pricing/Solutions'
 import Faq from '../Components/Pricing/Faq'
 import Features from '../Components/Pricing/Features'
 import PricingHero from '../Components/Pricing/PricingHero'
+import SolutionsGrid from '../Components/Pricing/SolutionsGrid'
 
 function Pricing() {
     return (
         <div>
-            {/* PricingHero*/}
+            
             <PricingHero/>
-            {/* Features*/}
+            
             <Features/>
-            {/* Faq*/}
+            
             <Faq/>
-            {/* Solutions*/}
+            
             <Solutions/>
-            {/* Grid */}
+            
+            <SolutionsGrid/>
         </div>
     )
 }

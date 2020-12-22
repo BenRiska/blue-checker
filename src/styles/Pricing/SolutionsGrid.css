@@ -1,0 +1,136 @@
+.solutionsGrid {
+  display: flex;
+  margin: 5rem auto;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  padding: 2rem 0;
+}
+
+.solutionsGrid__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.solutionsGrid__row-item {
+  height: 500px;
+  border: 1px solid black;
+  margin: 1.5rem;
+  border-radius: 50px;
+  background-position: 0 0 !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.solutionsGrid__row-item > h2 {
+  margin-bottom: 2rem;
+  font-size: 50px;
+  color: white;
+}
+
+.solutionsGrid__row-item > p {
+  color: #a1a9c9;
+  font-weight: 500;
+  max-width: 400px;
+  line-height: 30px;
+}
+
+.item-5 > h2,
+.item-6 > h2,
+.item-7 > h2 {
+  font-size: 36px;
+}
+
+.item-2 > h2,
+.item-9 > h2 {
+  font-size: 45px;
+}
+
+.item-3 > h2,
+.item-8 > h2 {
+  font-size: 40px;
+}
+
+.item-1,
+.item-4 {
+  flex: 1;
+}
+
+.item-2,
+.item-9 {
+  flex: 0.6;
+}
+
+.item-3,
+.item-8 {
+  flex: 0.4;
+}
+
+.item-5,
+.item-6,
+.item-7 {
+  flex: 0.33;
+}
+
+.item-1 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b5063de5ba4dd0b55e7d8_01%201.jpg);
+}
+
+.item-2 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b50a0544b13dec18c42fd_02%202.jpg);
+}
+
+.item-3 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b50d3495976676f67c669_03%201.jpg);
+}
+
+.item-4 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b510d1dc3317680e98abc_01%2013.jpg);
+}
+
+.item-5 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b514305a0954862ab812e_Rectangle%201029.jpg);
+}
+
+.item-6 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b5181b1ff77ec93d099dd_Rectangle%201030.jpg);
+}
+
+.item-7 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b51b3295b04a0492f32e9_Rectangle%201031.jpg);
+}
+.item-8 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b51f274a5d80c1b8fbb19_Rectangle%201032.jpg);
+}
+.item-9 {
+  background: url(https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b521c495976416567cb66_Rectangle%201169.jpg);
+}
+
+@media only screen and (max-width: 1300px) {
+  .item-5 > h2,
+  .item-6 > h2,
+  .item-7 > h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .solutionsGrid__row {
+    flex-direction: column;
+    max-width: 80vw;
+  }
+
+  .solutionsGrid__row-item {
+    width: 100%;
+  }
+
+  .solutionsGrid__row-item > h2 {
+    font-size: 40px !important;
+  }
+}
