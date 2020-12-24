@@ -53,6 +53,7 @@
   background: #0083ff;
   border: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .solutions__grid {

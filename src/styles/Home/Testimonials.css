@@ -55,6 +55,7 @@
   border: none;
   margin: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .testimonials__buttons > button:nth-child(1) {
@@ -66,6 +67,10 @@
   background-color: transparent;
   color: #0083ff;
   border: 1px solid rgba(0, 131, 255, 0.08);
+}
+
+.testimonials__buttons > button:nth-child(2):hover {
+  background: #e6f1ff;
 }
 
 .testimonials__header > span {

@@ -11,7 +11,7 @@ function Blog() {
             
             <Blogs/>
             
-            {/* <Subscribe/> */}
+            <Subscribe/>
         </div>
     )
 }

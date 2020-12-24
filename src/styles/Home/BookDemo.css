@@ -24,6 +24,12 @@
   border: 1px solid rgba(0, 131, 255, 0.08);
   background: transparent;
   font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.bookDemo-left > button:hover {
+  background: #e6f1ff;
 }
 
 .bookDemo-center {

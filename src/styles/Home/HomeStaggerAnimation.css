@@ -75,6 +75,10 @@
   border-radius: 30px;
 }
 
+.slider:hover > .button {
+  animation: button-anim-2 0.5s forwards ease;
+}
+
 .button {
   height: 50px;
   width: 50px;
@@ -91,4 +95,19 @@
 .hsa__sticker {
   position: absolute;
   bottom: -50px;
+}
+
+@keyframes button-anim-2 {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(50px) rotate(30deg);
+  }
+  75% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
 }

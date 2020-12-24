@@ -61,6 +61,11 @@
   color: #0083ff;
   background: transparent;
   border: 1px solid rgba(0, 131, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.getStarted__white-btn:hover {
+  background: #e6f1ff;
 }
 
 @media only screen and (max-width: 850px) {
