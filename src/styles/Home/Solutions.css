@@ -101,6 +101,7 @@
   right: -10px;
   z-index: 1;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .solutions__image-large > img:nth-child(2) {
@@ -109,6 +110,12 @@
   left: 40px;
   z-index: 1;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.solutions__image-large:hover > img:nth-child(2),
+.solutions__image-small:hover > img:nth-child(2) {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 950px) {

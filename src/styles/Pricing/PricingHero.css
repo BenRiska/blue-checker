@@ -68,9 +68,15 @@
   border-radius: 30px;
   color: white;
   height: 600px;
-  overflow: hidden;
   flex: 0.55;
   padding: 2rem 2rem 0 2rem;
+}
+
+.pricingHero__card:nth-child(2) > img {
+  position: absolute;
+  top: -107px;
+  height: 400px;
+  right: -150px;
 }
 
 .pricingHero__card:nth-child(1) > h2 {
@@ -167,6 +173,12 @@
   .pricingHero__cards {
     position: absolute;
     bottom: -900px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .pricingHero__card:nth-child(2) > img {
+    display: none;
   }
 }
 
