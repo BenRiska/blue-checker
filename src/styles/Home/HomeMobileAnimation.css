@@ -36,6 +36,21 @@
   line-height: 25px;
 }
 
+.hma__main-img {
+  z-index: 5;
+  transform: rotate(0deg);
+}
+
+.hma__phone-1 {
+  transform: rotate(-25deg) translate(20px, -15px);
+  z-index: 1;
+}
+
+.hma__phone-2 {
+  transform: rotate(25deg) translate(-20px, -15px);
+  z-index: -1;
+}
+
 @media only screen and (max-width: 1000px) {
   .hma__content {
     max-width: 80vw;

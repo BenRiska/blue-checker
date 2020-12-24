@@ -33,4 +33,9 @@
   align-items: center;
   box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.heroVideo__play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
 }
