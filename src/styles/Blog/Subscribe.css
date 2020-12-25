@@ -61,6 +61,7 @@
   color: #2d4379;
   padding: 0.5rem;
   font-weight: bold;
+  outline: none;
 }
 
 .subscribe__input > button {

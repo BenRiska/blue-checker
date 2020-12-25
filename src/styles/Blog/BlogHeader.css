@@ -10,6 +10,15 @@
   overflow: hidden;
 }
 
+.blogHeader__shadow {
+  width: 400px;
+  height: 14px;
+  background: rgba(82, 100, 142, 0.3);
+  filter: blur(40px);
+  border-radius: 60%;
+  margin-top: 70px;
+}
+
 .blogHeader > h1 {
   text-align: center;
 }
@@ -61,6 +70,7 @@
   padding: 2rem 0;
   width: 100%;
   color: #52648e;
+  outline: none;
 }
 
 .blogHeader > img {

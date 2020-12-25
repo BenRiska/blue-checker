@@ -101,6 +101,7 @@
   border-radius: 99px;
   align-self: center;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .pricingHero__card > span {
@@ -129,6 +130,7 @@
   justify-content: center;
   position: relative;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .pricingHero__card-footer > svg {

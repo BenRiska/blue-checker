@@ -12,6 +12,15 @@
   justify-content: space-between;
 }
 
+.blogs__blog {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.blogs__blog:hover {
+  transform: scale(1.05);
+}
+
 .blogs__row-1 > .blogs__blog > img {
   flex: 0.5;
   max-width: 50%;
