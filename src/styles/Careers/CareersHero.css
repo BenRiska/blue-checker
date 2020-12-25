@@ -29,11 +29,16 @@
   position: relative;
   flex: 0.5;
   border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .careersHero__card > h2 {
   margin: 3rem 0;
   opacity: 0;
+  color: white;
+  transition: all 0.3s ease;
+  font-size: 28px;
 }
 
 .careersHero__card > img {
@@ -75,6 +80,41 @@
   bottom: -70px;
   right: -100px;
   height: 250px;
+}
+
+@media only screen and (min-width: 800px) {
+  .careersHero__card:nth-child(1):hover > h2 {
+    opacity: 1;
+  }
+
+  .careersHero__card:nth-child(2):hover > h2 {
+    opacity: 1;
+  }
+
+  .careersHero__card:hover {
+    transform: translateY(70px);
+    background: rgb(8, 31, 77);
+  }
+
+  .careersHero__card:hover > .card__popups > img:nth-child(1) {
+    animation: card-img-anim forwards ease-out 0.2s;
+    animation-delay: 0s;
+  }
+
+  .careersHero__card:hover > .card__popups > img:nth-child(2) {
+    animation: card-img-anim forwards ease-out 0.2s;
+    animation-delay: 0.2s;
+  }
+
+  .careersHero__card:hover > .card__popups > img:nth-child(3) {
+    animation: card-img-anim forwards ease-out 0.2s;
+    animation-delay: 0.1s;
+  }
+
+  .careersHero__card:hover > .card__popups > img:nth-child(4) {
+    animation: card-img-anim forwards ease-out 0.2s;
+    animation-delay: 0.3s;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -123,5 +163,17 @@
 
   .careersHero__card > img {
     max-height: 400px;
+  }
+}
+
+@keyframes card-img-anim {
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }

@@ -1,3 +1,5 @@
 .header {
-  background: rgb(248, 250, 255);
+  background: transparent;
+  z-index: 0;
+  width: 100%;
 }

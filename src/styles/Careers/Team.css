@@ -37,9 +37,11 @@
   font-size: 14px;
   font-weight: 500;
   color: rgb(116, 131, 169);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.team__option:nth-child(1) {
+.team__option.active {
   background: white;
   color: #0083ff;
 }
@@ -57,12 +59,23 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 300px;
   justify-content: space-around;
+  border-radius: 30px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.team__member:hover {
+  box-shadow: 0 94px 114px -12px rgba(115, 131, 169, 0.1);
+}
+
+.team__member:hover > img {
+  transform: scale(1.1);
 }
 
 .team__member > img {
   width: 170px;
+  transition: all 0.3s ease;
 }
 
 .team__member > h2 {

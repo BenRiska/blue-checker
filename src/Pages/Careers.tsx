@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Benefits from '../Components/Careers/Benefits'
 import CareersHero from '../Components/Careers/CareersHero'
 import Map from "../Components/Careers/Map"
@@ -7,8 +7,14 @@ import Vision from '../Components/Careers/Vision'
 import "../styles/Careers/OurMission.css"
 
 function Careers() {
+
+    useEffect(() => {
+        const nav: any = document.querySelector(".header");
+
+        nav.style.background = "#f8faff";
+    }, [])
     return (
-        <div>
+        <div className="careers">
                 
                 <CareersHero/>
                 

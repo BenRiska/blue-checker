@@ -24,8 +24,14 @@ function Home() {
         })
 
     }, [])
+
+    useEffect(() => {
+        const nav: any = document.querySelector(".header");
+
+        nav.style.background = "#f8faff";
+    }, [])
     return (
-        <div>
+        <div className="home">
                 <div className="home__cursor-img">
                 <span>Get Started</span>
                 <svg   fill="none" xmlns="http://www.w3.org/2000/svg">
