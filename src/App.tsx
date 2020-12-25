@@ -7,14 +7,17 @@ import Pricing from './Pages/Pricing';
 import Careers from './Pages/Careers';
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
+import MobileNav from './Components/MobileNav';
 
 
 function App() {
 
+  
+
   return (
     <div className="app">
       <div className="header">
-      <Nav/>
+      {window.screen.width > 750 ? <Nav/>: <MobileNav/>}
       </div>
       <Switch>
         <Route path="/blog" component={Blog}/>

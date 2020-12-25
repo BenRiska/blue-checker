@@ -1,0 +1,61 @@
+.mobileNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.mobileNav__logo {
+  z-index: 1000;
+}
+
+.mobileNav__logo > svg:nth-child(1) {
+  margin-right: 0.5rem;
+}
+
+.mobileNav > img {
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.slider-menu {
+  position: absolute;
+  width: 100vw;
+  border-radius: 30px;
+  top: 65px;
+  padding: 1rem;
+  background: white;
+  left: 0;
+  transform-origin: top;
+  transition: all 0.3s ease;
+}
+
+.slider__nav-links {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider-menu > button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 99px;
+  color: #0083ff;
+  background: rgba(0, 131, 255, 0.08);
+  font-weight: bold;
+}
+
+.mobileNav__link {
+  text-decoration: none;
+  color: #52648e;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}

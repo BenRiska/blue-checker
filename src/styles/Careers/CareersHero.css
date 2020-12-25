@@ -161,6 +161,16 @@
     flex-direction: column;
   }
 
+  .careersHero__card {
+    background: rgb(8, 31, 77);
+    margin-top: 1rem;
+  }
+
+  .careersHero__card > h2 {
+    opacity: 1;
+    font-size: 18px;
+  }
+
   .careersHero__card > img {
     max-height: 400px;
   }
