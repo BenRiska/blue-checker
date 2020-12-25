@@ -21,13 +21,20 @@
 }
 
 .faq__list {
-  margin-top: 3rem;
+  margin-top: 5rem;
   width: 100%;
 }
 
 .faq__question {
   padding: 2rem;
   border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.faq__question:hover {
+  background: #f8faff;
+  color: #081f4d;
 }
 
 .faq__question > h2 {
@@ -37,7 +44,12 @@
 }
 
 .faq__answer {
-  display: none;
+  padding: 1rem;
+  text-align: left;
+  color: #081f4d;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
