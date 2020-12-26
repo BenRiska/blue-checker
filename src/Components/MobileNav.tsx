@@ -4,7 +4,7 @@ import "../styles/MobileNav.css"
 import {Link} from "react-router-dom"
 
 
-function MobileNav() {
+const MobileNav: React.FC = (): JSX.Element => {
     const [navOpen, setNavOpen] = useState(false)
     return (
         <div className="mobileNav">

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/Banner.css"
 
-function Banner() {
+const Banner: React.FC = (): JSX.Element => {
     return (
         <div className="banner">
             <div className="banner__content">

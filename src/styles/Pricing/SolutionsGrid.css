@@ -131,6 +131,20 @@
   }
 
   .solutionsGrid__row-item > h2 {
-    font-size: 40px !important;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .item-5 > h2,
+  .item-6 > h2,
+  .item-7 > h2,
+  .item-2 > h2,
+  .item-9 > h2,
+  .item-3 > h2,
+  .item-8 > h2,
+  .item-4 > h2,
+  .item-1 > h2 {
+    font-size: 32px !important;
   }
 }

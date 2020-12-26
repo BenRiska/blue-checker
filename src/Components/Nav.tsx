@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Nav.css"
 import {Link} from "react-router-dom"
 
-function Nav() {
+const Nav: React.FC = (): JSX.Element => {
     
     return (
         <div className="nav">

@@ -11,12 +11,9 @@
 }
 
 .blurredImg {
-  position: absolute;
   width: 90%;
-}
-
-.shownImg {
-  width: 90%;
+  object-fit: contain;
+  height: 100%;
 }
 
 .heroVideo__play-button {
@@ -38,4 +35,10 @@
 
 .heroVideo__play-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
+}
+
+@media only screen and (max-width: 750px) {
+  .heroVideo {
+    margin: 2rem 0;
+  }
 }

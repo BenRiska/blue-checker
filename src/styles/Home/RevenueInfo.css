@@ -160,6 +160,15 @@
     flex-direction: column;
   }
 
+  .revenueInfo__header > h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .revenueInfo__header > h2 > span > svg {
+    display: none;
+  }
+
   .revenueInfo__header > p {
     margin-top: 3rem;
     text-align: center;

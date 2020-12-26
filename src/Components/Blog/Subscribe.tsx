@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Blog/Subscribe.css"
 
-function Subscribe() {
+const Subscribe: React.FC = (): JSX.Element => {
     return (
         <div className="subscribe">
             <img className="subscribe__img1" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fad2f80aaa08380663f618e_Mask%20Group.png"  alt="" ></img>

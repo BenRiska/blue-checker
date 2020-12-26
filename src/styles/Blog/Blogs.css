@@ -156,6 +156,23 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .blogs {
+    margin: 3rem auto;
+  }
+
+  .blogs__mobile {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  .blog__content > h2 {
+    font-size: 34px;
+  }
+
+  .blogs__blog {
+    margin: 2rem;
+  }
+
   .blogs__row-1 > .blogs__blog,
   .blogs__row-2,
   .blogs__row-3,

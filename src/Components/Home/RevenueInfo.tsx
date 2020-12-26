@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/RevenueInfo.css"
 
-function RevenueInfo() {
+const RevenueInfo: React.FC = (): JSX.Element => {
     return (
         <div className="revenueInfo">
             <div className="revenueInfo__header">

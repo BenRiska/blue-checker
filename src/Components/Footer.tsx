@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Footer.css"
 
-function Footer() {
+const Footer: React.FC = (): JSX.Element => {
     return (
         <div className="footer">
             <div className="footer__inner">

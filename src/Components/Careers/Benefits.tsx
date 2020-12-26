@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Careers/Benefits.css"
 
-function Benefits() {
+const Benefits: React.FC = (): JSX.Element => {
     return (
         <div className="benefits">
             <h1>
@@ -49,7 +49,7 @@ function Benefits() {
                         <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b5897de5ba4945856037e_fire_1f525%201.png" width="42" height="42" alt=""/>
                     </div>
                     <h2>Developing Idealized Self</h2>
-                    <p>You are put on this earth to Play!  You are not put on this earth to “work and toil.” We help flourish your skills, health and happiness.</p>
+                    <p>You are put on this earth to Play! You are not put on this earth to “work and toil.” We help flourish your skills, health and happiness.</p>
                 </div>
             </div>
         </div>

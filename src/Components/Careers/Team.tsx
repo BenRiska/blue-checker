@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "../../styles/Careers/Team.css"
 
-function Team() {
+const Team: React.FC = (): JSX.Element => {
 
     const [teamState, setTeamState] = useState("all")
     return (

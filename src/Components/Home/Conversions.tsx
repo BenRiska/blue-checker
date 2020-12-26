@@ -2,7 +2,7 @@ import React from 'react'
 import "../../styles/Home/Conversions.css"
 import image from "../../Assets/Images/conversions.png"
 
-function Conversions() {
+const Conversions: React.FC = (): JSX.Element => {
     return (
         <div className="conversions">
             <img className="conversions__backdrop" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b78052573758934f6c0db_Group%2042619.png" loading="lazy"></img>
@@ -18,7 +18,6 @@ function Conversions() {
                     Text marketing has the best statistics for helping your business make more revenue. The opportunity it presents is unlike anything else. The metrics below tell a story. These metrics allows you to achieve record breaking revenue numbers in a few clicks. At BlueReceipt we service millions of Text messages monthly for <span>8-9 Figure companies.</span>
                     </p>
                 </div>
-                {/* <img src={image} alt="conversions logo"/> */}
             </div>
             <div className="conversions__stats">
                 <div className="conversions__stat">

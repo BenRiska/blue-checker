@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Careers/Map.css"
 
-function Map() {
+const Map: React.FC = (): JSX.Element => {
     return (
         <div className="map">
             <h1>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Blog/BlogHeader.css"
 
-function BlogHeader() {
+const BlogHeader: React.FC = (): JSX.Element => {
     return (
         <div className="blogHeader">
             <h1>

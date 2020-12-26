@@ -48,6 +48,12 @@
   padding: 0 1rem;
 }
 
+@media only screen and (max-width: 750px) {
+  .pricingSolutions__header > h2 {
+    margin: 2rem 0;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .pricingSolutions__header > p {
     max-width: 90vw;

@@ -9,7 +9,7 @@ import klayvioIcon from "../../Assets/Images/klayvio-icon.svg"
 import cartHookIcon from "../../Assets/Images/carthook-icon.svg"
 import okendoIcon from "../../Assets/Images/okendo-icon.svg"
 
-function BookDemo() {
+const BookDemo: React.FC = (): JSX.Element => {
     return (
         <div className="bookDemo">
             <div className="bookDemo-left">

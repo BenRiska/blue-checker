@@ -2,7 +2,7 @@ import React from 'react'
 import "../../styles/Home/HomeStaggerAnimation.css"
 import image from "../../Assets/Images/stagger-complete.png"
 
-function HomeStaggerAnimation() {
+const HomeStaggerAnimation: React.FC = (): JSX.Element => {
     return (
         <div className="homeStaggerAnimation">
             <div className="hsa__container">

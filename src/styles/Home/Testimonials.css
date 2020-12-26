@@ -140,3 +140,9 @@
     overflow: scroll;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .testimonials__header > h1 > span {
+    font-size: 40px;
+  }
+}

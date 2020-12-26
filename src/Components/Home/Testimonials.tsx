@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/Testimonials.css"
 
-function Testimonials() {
+const Testimonials: React.FC = (): JSX.Element => {
     return (
         <div className="testimonials">
             <div className="testimonials__header">

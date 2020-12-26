@@ -10,9 +10,7 @@ import Footer from './Components/Footer';
 import MobileNav from './Components/MobileNav';
 
 
-function App() {
-
-  
+const App: React.FC = (): JSX.Element => {
 
   return (
     <div className="app">

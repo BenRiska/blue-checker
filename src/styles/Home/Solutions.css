@@ -154,6 +154,10 @@
     height: 250px;
   }
 
+  .solutions__header > h1 {
+    font-size: 40px;
+  }
+
   .solutions__image-small {
     width: 350px;
   }

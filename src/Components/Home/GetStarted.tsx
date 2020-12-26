@@ -2,7 +2,7 @@ import React from 'react'
 import "../../styles/Home/GetStarted.css"
 import image from "../../Assets/Images/get-started.png"
 
-function GetStarted() {
+const GetStarted: React.FC = (): JSX.Element => {
     return (
         <div className="getStarted">
             <div className="getStarted__content">

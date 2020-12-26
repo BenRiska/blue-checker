@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/HomeMobileAnimation.css"
 
-function HomeMobileAnimation() {
+const HomeMobileAnimation: React.FC = (): JSX.Element => {
     return (
         <div className="homeMobileAnimation">
             <div className="hma__content">

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/Hero.css"
 
-function Hero() {
+const Hero: React.FC = (): JSX.Element => {
     return (
         <div className="hero">
             <div className="hero__container">

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "../../styles/Pricing/Faq.css"
 
-function Faq() {
+const Faq: React.FC = (): JSX.Element => {
 
     const [question1, setQuestion1] = useState(false)
     const [question2, setQuestion2] = useState(false)

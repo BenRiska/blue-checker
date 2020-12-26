@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Pricing/SolutionsGrid.css"
 
-function SolutionsGrid() {
+const SolutionsGrid: React.FC = (): JSX.Element => {
     return (
         <div className="solutionsGrid">
             <div className="solutionsGrid__row">

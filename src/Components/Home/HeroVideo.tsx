@@ -3,12 +3,11 @@ import "../../styles/Home/HeroVideo.css"
 import placeholder from "../../Assets/Images/hero-placeholder.jpg"
 import blurredPlaceholder from "../../Assets/Images/blurred-hero-placeholder.jpg"
 
-function HeroVideo() {
+const HeroVideo: React.FC = (): JSX.Element => {
     return (
         <div className="heroVideo">
             <div className="heroVideo__container">
-                <img className="blurredImg" src={blurredPlaceholder} alt="blurred video placeholder"/>
-                <img className="shownImg" src={placeholder} alt="video placeholder"/>
+                <img className="blurredImg" src={blurredPlaceholder} alt="blurred video placeholder"/> 
                 <a href="https://youtu.be/n9B4Isq-dM8" target="_blank">
                 <div className="heroVideo__play-button">
                     <svg width="29" height="32" viewBox="0 0 29 32" fill="none" xmlns="http://www.w3.org/2000/svg">

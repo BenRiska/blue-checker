@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Careers/Vision.css"
 
-function Vision() {
+const Vision: React.FC = (): JSX.Element => {
     return (
         <div className="vision">
             <h1>

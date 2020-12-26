@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Pricing/Features.css"
 
-function Features() {
+const Features: React.FC = (): JSX.Element => {
     return (
         <div className="features">
             <div className="features__header">

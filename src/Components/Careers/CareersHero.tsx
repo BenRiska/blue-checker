@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Careers/CareersHero.css"
 
-function CareersHero() {
+const CareersHero: React.FC = (): JSX.Element => {
     return (
         <div className="careersHero">
             <h1>

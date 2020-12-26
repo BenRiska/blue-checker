@@ -150,9 +150,19 @@
 @media only screen and (max-width: 650px) {
   .conversions__stats {
     grid-template-columns: 1fr;
+    margin-top: 1rem;
   }
 
   .conversions__stat {
     margin-top: 1rem;
+  }
+
+  .conversions__info > h1 > span {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .conversions__info > p {
+    font-size: 14px;
   }
 }

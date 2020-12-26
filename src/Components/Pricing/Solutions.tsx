@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Pricing/Solutions.css"
 
-function Solutions() {
+const Solutions: React.FC = (): JSX.Element => {
     return (
         <div className="pricingSolutions">
             <div className="pricingSolutions__header">

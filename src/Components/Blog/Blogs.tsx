@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Blog/Blogs.css"
 
-function Blogs() {
+const Blogs: React.FC = (): JSX.Element => {
     return (
         <div className="blogs">
             <div className="blogs__row-1">

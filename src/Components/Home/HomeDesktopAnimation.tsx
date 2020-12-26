@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Home/HomeDesktopAnimation.css"
 
-function HomeDesktopAnimation() {
+const HomeDesktopAnimation: React.FC = (): JSX.Element => {
     return (
         <div className="homeDesktopAnimation">
             <div className="hda__chat-bubble">
