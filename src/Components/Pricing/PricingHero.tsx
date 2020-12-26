@@ -62,7 +62,7 @@ const PricingHero: React.FC = (): JSX.Element => {
                 </div>
 
                 <div className="pricingHero__card">
-                    <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b3d9e782fc2383974d133_23%2090181.png" loading="lazy" />
+                    <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b3d9e782fc2383974d133_23%2090181.png" alt="pricing" loading="lazy" />
                     <h2>Enterprise</h2>
                     <p>Above 50,000 Subs | Schedule Consultation</p>
                     <div className="pricingHero__feature">

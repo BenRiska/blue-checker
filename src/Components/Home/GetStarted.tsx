@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../styles/Home/GetStarted.css"
-import image from "../../Assets/Images/get-started.png"
+
 
 const GetStarted: React.FC = (): JSX.Element => {
     return (

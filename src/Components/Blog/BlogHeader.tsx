@@ -22,8 +22,8 @@ const BlogHeader: React.FC = (): JSX.Element => {
                 </svg>
                 <input type="text" placeholder="Search..."/>
             </div>
-            <img className="blogHeader__img1" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fad2f6259b5638896186658_Cylinder.png" ></img>
-            <img className="blogHeader__img2" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fad2f6259b563cc4718665b_Bee.png"></img>
+            <img className="blogHeader__img1" alt="blog header logo" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fad2f6259b5638896186658_Cylinder.png" ></img>
+            <img className="blogHeader__img2" alt="blog header logo" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5fad2f6259b563cc4718665b_Bee.png"></img>
         </div>
     )
 }

@@ -50,11 +50,11 @@ function Home() {
                 </filter>
                 </defs>
                 </svg>
-                <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6de3612847ddd1548257d1_Mask%20Group.png"></img>
+                <img src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6de3612847ddd1548257d1_Mask%20Group.png" alt="home logo"></img>
                 </div>
-                <img className="home__img-1" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6397a6e595360982d6c0d1_Brightness_Contrast%201%20copy.png"></img>
+                <img className="home__img-1" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6397a6e595360982d6c0d1_Brightness_Contrast%201%20copy.png" alt="home floating icon"></img>
 
-                <img className="home__img-2" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6397a6e59536e77ad6c0cf_Brightness_Contrast%201.png"></img>
+                <img className="home__img-2" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6397a6e59536e77ad6c0cf_Brightness_Contrast%201.png" alt="home floating icon"></img>
                 
                 <Hero/>
                 

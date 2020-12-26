@@ -1,11 +1,10 @@
 import React from 'react'
 import "../../styles/Home/Conversions.css"
-import image from "../../Assets/Images/conversions.png"
 
 const Conversions: React.FC = (): JSX.Element => {
     return (
         <div className="conversions">
-            <img className="conversions__backdrop" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b78052573758934f6c0db_Group%2042619.png" loading="lazy"></img>
+            <img className="conversions__backdrop" src="https://uploads-ssl.webflow.com/5f637e323fd92186000b17a2/5f6b78052573758934f6c0db_Group%2042619.png" alt="conversions logo"></img>
             
             <div className="conversions__header">
                 <div className="conversions__info">
