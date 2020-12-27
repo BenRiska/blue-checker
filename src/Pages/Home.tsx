@@ -36,11 +36,11 @@ function Home() {
                 <span>Get Started</span>
                 <svg   fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d)">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M78.4064 0C65.1516 0 54.4064 10.7452 54.4064 24C54.4064 37.2548 65.1516 48 78.4064 48H91.289C94.4716 48 97.5239 49.2643 99.7743 51.5147L105.431 57.1716C106.993 58.7337 109.526 58.7337 111.088 57.1716L116.745 51.5147C118.995 49.2643 122.048 48 125.23 48H137.406C150.661 48 161.406 37.2548 161.406 24C161.406 10.7452 150.661 0 137.406 0H78.4064Z" fill="#162148"></path>
+                <path fillRule="evenodd" clipRule="evenodd" d="M78.4064 0C65.1516 0 54.4064 10.7452 54.4064 24C54.4064 37.2548 65.1516 48 78.4064 48H91.289C94.4716 48 97.5239 49.2643 99.7743 51.5147L105.431 57.1716C106.993 58.7337 109.526 58.7337 111.088 57.1716L116.745 51.5147C118.995 49.2643 122.048 48 125.23 48H137.406C150.661 48 161.406 37.2548 161.406 24C161.406 10.7452 150.661 0 137.406 0H78.4064Z" fill="#162148"></path>
                 </g>
                 <defs>
-                <filter id="filter0_d" x="0.406433" y="0" width="255" height="206.343" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                <filter id="filter0_d" x="0.406433" y="0" width="255" height="206.343" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
                 <feOffset dx="20" dy="74"></feOffset>
                 <feGaussianBlur stdDeviation="37"></feGaussianBlur>
