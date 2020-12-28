@@ -14,6 +14,7 @@ import Solutions from '../Components/Home/Solutions'
 import Testimonials from '../Components/Home/Testimonials'
 import "../styles/Home/Home.css"
 
+
 function Home() {
 
     useEffect(() => {
@@ -27,9 +28,9 @@ function Home() {
 
     useEffect(() => {
         const nav: any = document.querySelector(".header");
-
         nav.style.background = "#f8faff";
     }, [])
+
     return (
         <div className="home">
                 <div className="home__cursor-img">
